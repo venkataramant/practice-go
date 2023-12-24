@@ -1,0 +1,19 @@
+
+syntax = "proto3";
+
+import "google/protobuf/timestamp.proto";
+
+option go_package ="pb/backoffice";
+
+message LineItem {
+    string SKU=1;
+    int64 Amount=2;
+    int64 Price=3;
+}
+
+message Invoice {
+    string ID=1;
+    google.protobuf.Timestamp Time=2;
+    string Customer = 3;
+    repeated LineItem Items = 4;
+}

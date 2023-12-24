@@ -1,0 +1,9 @@
+{"id":"abcdefghijklmnopqrt",
+ "driverId":"007",
+  "location":{
+    "lat":51.4871871, 
+    "lng":-0.1266743
+},
+   "passengerIds":["A", "B"],
+    "time":"2023-12-22T20:28:33.160846Z",
+    "type":"POOL"}
